@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .box {
+          width:100px;
+          height:60px;
+          color:blueviolet;
+          padding:50px;
+          margin:30px;
+          text-align:center;
+        }
+        .static{
+            position:static;
+            background-color:black;
+        }
+        .relative{
+            top:100px;
+            left:60px;
+            padding:50px;
+            margin:30px;
+            text-align:center;
+            position: relative;
+            background-color: blue;
+        }
+        .absolute-container{
+           top:100px;
+           right:60px;
+           padding:50px;
+           margin:30px;
+           text-align:center;
+           position:absolute;
+           background-color: brown;
+        }
+        </style>
+</head>
+<body>
+    <h2 class="sticky">Sticky Header</h2>
+    <div class="box static">Static</div>
+    <div class="box relative">Relative</div>
+    <div class="absolute-container">Absolute-container</div>
+    <p>scroll down to see static in action and box in corner.</p>
+    <p style="height:600px;"></p>
+</body>
+</html>
